@@ -38,11 +38,11 @@ const ModalValidacion = () => {
     }
   }, [modalIsOpen]);
 
-  const openModal = () => {
+  export const openModal = () => {
     setModalIsOpen(true); // Abrir el modal
   };
 
-  const closeModal = () => {
+  export const closeModal = () => {
     setModalIsOpen(false); // Cerrar el modal
   };
 
