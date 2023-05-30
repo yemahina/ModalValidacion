@@ -1,0 +1,42 @@
+.imagPagPrincipal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px; /* Margen superior de 150 píxeles */
+  margin-bottom: 20px; /* Margen inferior de 20 píxeles */
+}
+.botonAbrirModal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px; /* Margen superior de 150 píxeles */
+  margin-bottom: 20px; /* Margen inferior de 20 píxeles */
+}
+.modalContainer {
+  border: none; /* Sin borde */
+  background-color: rgb(44, 39, 34); /* Color de fondo gris oscuro */
+  /*backgroundColor: "rgba(0, 0, 0, 0.5)"
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "white",
+  border: "none",
+  borderRadius: "4px",
+  outline: "none",
+  padding: "20px",
+  maxWidth: "300px",
+  margin: "0 auto"*/
+}
+.imagModal {
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: 400px; /* Margen izquierdo de 400 píxeles */
+  margin-top: 10%; /* Margen superior del 10% del contenedor */
+}
+p {
+  text-align: center; /* Alineación del texto al centro */
+  color: #ffffff; /* Color de texto blanco */
+  font-weight: bold; /* Texto en negritas */
+  font-family: Arial, sans-serif; /* Cambio de tipo de letra a Arial o fuentes sans-serif */
+}
